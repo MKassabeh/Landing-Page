@@ -2,3 +2,82 @@
     height: auto;
     width: 5vh;
 }
+
+.navbar{
+    background-color: black;
+}
+
+.first-segment{
+    background-color: #D9B6A0;
+    position: relative;
+    text-align: center;
+}
+
+.description{
+    height: 45vh;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+}
+
+
+.island-story{
+    background-color: black;
+    color: white;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+
+
+}
+.friendship{    
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-friendship{
+    height: 20vh;
+}
+
+
+
+.img-fixed{
+    background-image: url(assets/img/Samurai-Champloo-featured-Cropped.avif);
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.1);
+}
+
+.description-island{
+    height: 45vh;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white; 
+    padding: 20px;
+}
