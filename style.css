@@ -28,10 +28,16 @@
 
 .header > .header-content{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 120px;
+    padding: 10vh 0;
 }
 
 .header > .header-content > .header-text{
     color: #f9faf8 ;
+    width: 40vh;
+    
 
 }
 .header > .header-content > .header-text > .title{
@@ -44,6 +50,6 @@
     
 }
 .header > .header-content > img{
-
+    width: 50vh;
 }
 
