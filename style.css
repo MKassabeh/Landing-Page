@@ -125,3 +125,56 @@
     color: #1f2937;
     
 }
+.quote-section > blockquote > footer {
+    font-weight: bolder ;
+}
+
+/* Sign up section */
+
+.sign-up {
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up > .sign-square{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 30vh;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 5vh 20vh;
+    color:white;
+
+}
+.sign-up > .sign-square{
+    display: flex;
+    gap: 30vh;
+
+}
+.sign-up > .sign-square > button {
+    height : 5vh;
+    padding: 0.5vh 4vh;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Footer section */
+
+
+.footer-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    background-color:#1f2937 ;
+    color: white;
+    margin-top: 10vh;
+}
