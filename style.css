@@ -103,3 +103,25 @@
 .information > .square-information > div >p{
     width: 21vh;
 }
+
+
+/* Quote section */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e5e7eb ;
+    height: 30vh;
+
+}
+.quote-section > blockquote {
+    width: 100vh;
+}
+.quote-section > blockquote > q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    
+}
