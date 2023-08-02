@@ -46,10 +46,60 @@
 }
 
 .header > .header-content > .header-text > p{
+    font-size: 18px;
+    color: #e5e7eb;
     
+}
+.header > .header-content > .header-text > button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 1vh 4vh;
+    border: none;
+    font-weight: bold;
     
 }
 .header > .header-content > img{
     width: 50vh;
 }
 
+
+ /* Information section  */
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information > h1{
+    padding-top: 5vh;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information > .square-information{
+    display: flex;
+    justify-content: space-around;
+    gap : 50px;
+    padding: 5vh 0;
+}
+
+.information > .square-information > div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information > .square-information > div > .square{
+    height: 20vh;
+    width: 20vh;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+.information > .square-information > div >p{
+    width: 21vh;
+}
