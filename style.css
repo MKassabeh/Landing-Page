@@ -4,18 +4,24 @@ html, body {
 }
 
 .header{
-
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 100px;
     background-color: #1F2937;
     color: white;
+    padding: 0 100px 100px 100px;
+}
+.header .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header > .header-top h3{
+    margin:0;
 }
 
-.header > .right-header{
+.header > .header-top .right-header{
     display: flex;
-    
+    justify-content: space-between;
+    width: 350px;
 }
 
 .header > .right-header > .header-item{
@@ -23,4 +29,10 @@ html, body {
     cursor: pointer;
     font-size: 18PX;
     color: #E5E7EB;
+}
+
+
+.header .hero{
+
+    padding-top: 100px;
 }
